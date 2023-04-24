@@ -13,6 +13,16 @@ On the backend, the application uses Django Rest Framework to provide an API end
 
 To run this project, you will need to have Node.js and Python installed on your machine.
 
+### Backend
+
+To install the backend dependencies, navigate to the root directory and run the following commands:
+
+```
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
 ### Frontend
 
 To install the frontend dependencies, navigate to the `frontend` directory and run the following commands:
@@ -20,16 +30,6 @@ To install the frontend dependencies, navigate to the `frontend` directory and r
 ```
 npm install
 npm start
-```
-
-### Backend
-
-To install the backend dependencies, navigate back into the root directory and run the following commands:
-
-```
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
 ```
 
 ## Usage
